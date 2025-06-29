@@ -1,7 +1,6 @@
 {
   "name": "puppeteer-render",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +13,15 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "puppeteer": "^19.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter99084/puppeteer-render.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peter99084/puppeteer-render/issues"
+  },
+  "homepage": "https://github.com/peter99084/puppeteer-render#readme",
+  "devDependencies": {},
+  "description": ""
 }
