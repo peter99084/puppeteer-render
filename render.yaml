@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: puppeteer-service
+    runtime: node
+    plan: free
+    buildCommand: ./render-build.sh
+    startCommand: node index.js
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: HEADLESS
+        value: "true"
