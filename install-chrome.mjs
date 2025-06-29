@@ -6,7 +6,8 @@ import puppeteer from 'puppeteer';
 (async () => {
   console.log('Installing Chromium...');
   const browserFetcher = puppeteer.createBrowserFetcher();
-  const revisionInfo = await browserFetcher.download('1095492');
+  const revision = '1095492';
+  const revisionInfo = await browserFetcher.download(revision);
   console.log('✅ Chromium downloaded to:', revisionInfo.executablePath);
 })();
  
